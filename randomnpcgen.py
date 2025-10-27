@@ -18,5 +18,23 @@ personality = [
     "patient", "perceptive", "persistent", "resourceful", "responsible", "sincere"
 ]
 
+for names in usernames:
+    traits = random.sample(personality, 4)
+
+trades = [
+    "blacksmith", "baker", "carpenter", "farmer", "merchant",
+    "soldier", "hunter", "healer", "priest", "miner",
+    "tailor", "cook", "innkeeper", "scribe", "teacher",
+    "alchemist", "guard", "ranger", "bard", "fisher"
+]
+
+for jobs in usernames:
+    profressions = random.choice(trades)
+
+
+
+
+
+
 
 
