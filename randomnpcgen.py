@@ -28,7 +28,7 @@ trades = [
     "alchemist" , "guard" , "ranger" , "bard" , "fisher"
 ]
 
-# to print the npc's traits and trade
+# the npc's traits, job and age
 for name in usernames:
     traits = random.sample(personality, 2)
     job = random.choice(trades)
@@ -40,7 +40,7 @@ for name in usernames:
     skill = round(random.uniform(0.0, 10.0), 2)
     height = round(random.uniform(1.7, 2.0), 2)
 
-# prints everything in 0.2 second intrevals
+# prints everything in 0.2 second intrevals for smoothness
 
     print("\n\n____________________________________")
     print(f"Name: {name}")
