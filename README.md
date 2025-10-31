@@ -76,5 +76,5 @@ Example output:
     ____________________________________
 
 
-## python
+## Python
 python npc_generator.py
