@@ -10,17 +10,18 @@ NPC Generator
 
 ## Overview
 The NPC Generator is a lightweight Python script created by me,Shiven, to help developers in creating npcs  quickly. Each NPC has some attributes including name, profession, personality traits, age, height and if they are a magic user or not.
-For example
+
+For example:
 
 
-# variables for the npc's traits, job and age
+    # variables for the npc's traits, job and age
 
     for name in usernames:
     traits = random.sample(personality, 2)
     job = random.choice(trades)
     age = random.randint(18, 65)
 
-# attempt to add bool and floats
+    # attempt to add bool and floats
 
     mage = bool(random.randint(0, 1))
     skill = round(random.uniform(0.0, 10.0), 2)
@@ -29,10 +30,11 @@ For example
 
 
 The program shows subtle differences between npcs by random sampling, making every character different than others and unique for a better experience and meeting new personalities of people. The goal of this project is to give an easy and simple way to add people to worlds, without having to spend grueling hours to make it yourself. It was made so it gives all the information about the npc in organized and detailed form.
-For example
+
+For example:
 
 
-# prints everything in 0.2 second intrevals for smoothness
+    # prints everything in 0.2 second intrevals for smoothness
 
     print("\n\n____________________________________")
     print(f"Name: {name}")
@@ -59,6 +61,20 @@ GitHub: https://github.com/ShivenCSP
 
 ## Usage
 Run the script in any terminal or Python IDE. You will be have to enter ten names. Then, the generator will then make 10 NPC profiles with some specific attributes in the terminal.
+
+Example output:
+
+
+    ____________________________________
+    Name: john
+    Age: 64 years old
+    Height: 1.8 meters tall
+    Job: alchemist  
+    Skill Level: 5.4
+    Traits: forgiving, funny.
+    Magic User: True
+    ____________________________________
+
 
 python
 python npc_generator.py
