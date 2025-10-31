@@ -2,7 +2,7 @@ NPC Generator
 (MIT lisence)
 
 ## Highlights
-- Automatically generates ten unique non-player characters (NPCs).  
+- Automatically generates ten unique npcs.  
 - Randomly make attributes such as personality traits, age, height, and job.  
 - Includes additional randomized details like magic ability and skill level.  
 - Simple, Python script using only the math, time and random libraries.  
@@ -13,7 +13,7 @@ The NPC Generator is a lightweight Python script created by me,Shiven, to help d
 
 For example:
 
-
+```python
     # variables for the npc's traits, job and age
 
     for name in usernames:
@@ -26,14 +26,14 @@ For example:
     mage = bool(random.randint(0, 1))
     skill = round(random.uniform(0.0, 10.0), 2)
     height = round(random.uniform(1.7, 2.0), 2)
-
+```
 
 
 The program shows subtle differences between npcs by random sampling, making every character different than others and unique for a better experience and meeting new personalities of people. The goal of this project is to give an easy and simple way to add people to worlds, without having to spend grueling hours to make it yourself. It was made so it gives all the information about the npc in organized and detailed form.
 
 For example:
 
-
+```python
     # prints everything in 0.2 second intrevals for smoothness
 
     print("\n\n____________________________________")
@@ -53,7 +53,7 @@ For example:
     time.sleep(0.2)
     print("____________________________________")
     time.sleep(0.5)
-
+```
     
 ## Author
 Author: Shiven  
